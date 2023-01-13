@@ -1,11 +1,11 @@
-import Main from './Layout/Main/Main';
+import Main from "./pages/main";
 
 function App() {
-    return (
-        <>
-            <Main></Main>
-        </>
-    );
+  return (
+    <div>
+      <Main />
+    </div>
+  );
 }
 
 export default App;
